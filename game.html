@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./game.css" />
+    <title>Black Jack Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Black Jack</h1>
+      <p id="msg-el">Pick Up the Cards? 😉</p>
+      <p id="player-cards">Your Cards : 0 0</p>
+      <p id="player-sum">Your Sum : 0</p>
+      <p id="dealer-sum">Dealer Sum : 0</p>
+      <!-- Create a button that says START GAME. Make it call a startGame() function when clicked -->
+      <button id="start-btn" onclick="startGame()">START</button>
+      <!-- Create a NEW CARD button, make it run newCard() on click -->
+      <button id="new-btn" style="display: none" onclick="newCard()">
+        NEW CARD
+      </button>
+      <!-- Create a Restart button, make it run restart() on click -->
+      <button id="restart-btn" style="display: none" onclick="restartGame()">
+        Restart Game
+      </button>
+    </div>
+    <script src="./game.js"></script>
+  </body>
+</html>

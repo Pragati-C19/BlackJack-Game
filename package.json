@@ -1,0 +1,15 @@
+{
+  "name": "notes-learnings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "_comment1": "you don't need to write node index.js now just type npm start and also if you want to use file from any folder use it as folderName/fileName",
+    "start": "node game.js",
+    "game": "nodemon game.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

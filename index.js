@@ -93,9 +93,9 @@ function baseSetup() {
   */
 
   // Cards
-  console.log(playerCards);
+  console.log("   Player's Cards : " + playerCards);
   // Cards
-  console.log(dealerCards);
+  console.log("   Dealer's Cards : " + dealerCards);
 }
 
 //Start Game
@@ -124,7 +124,7 @@ function startGame() {
 
 //Draw New Card
 function newCard() {
-  console.log("Drawing a new card from the deck!");
+  //console.log("Drawing a new card from the deck!");
   // Only allow the player to get a new card if player is alive and does NOT have Blackjack
   if (isAlive === true && hasBlackJack === false) {
     // Create a card variable, and hard code its value to a number (2-11)
@@ -170,6 +170,7 @@ function determineGameOutcome() {
   } else if (playerSum === 0) {
     //after restart it reset value to 0 --- working fine
     message = "Pick Up the Cards?🃏";
+    console.log("Pick Up the Cards?🃏");
   } else if (playerSum > 21 && dealerSum > 21) {
     message = "Noone Win! 🥱";
     isAlive = false;

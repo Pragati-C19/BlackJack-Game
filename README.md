@@ -7,12 +7,10 @@ This project, developed to practice JavaScript, is an interactive and functional
 I was practicing JavaScript through it and wasn't planning to add it to GitHub, but the result turned out so good that I couldn't hold it back. 
 
 ## About
-#
 
 The game is designed to simulate a simple Blackjack game. Players draw cards and try to reach a sum of 21 without exceeding it, while competing against a dealer doing the same.
 
 ## Features
-#
 
 - **Random Card Drawing**: Cards are drawn with values between 1 and 13.
 - **Game State Management**: Tracks and displays player and dealer card sums.
@@ -27,7 +25,6 @@ The game is designed to simulate a simple Blackjack game. Players draw cards and
 - `images/`: Folder containing images for the game.
 
 ## How to Play  
-#
 ### Method 1 : Online
 - You can play the game online by clicking here: [Let's Play](https://pragati-c19.github.io/BlackJack-Game/)
 
@@ -51,7 +48,6 @@ The game is designed to simulate a simple Blackjack game. Players draw cards and
    - If the player's sum is equal to 21, they hit Blackjack! 🃏
 
 ## Implementation (Key JavaScript Techniques):
-#
 1. *Random Card Generation*:
    ```javascript
    function getRandomCard() {
@@ -101,7 +97,6 @@ The game is designed to simulate a simple Blackjack game. Players draw cards and
 - **Determine Outcome**: Compare sums to determine win, loss, or tie.
 
 ## Screenshots
-#
 ### 1. Home Page
 ![Home Page](images/home_page.png)
 
